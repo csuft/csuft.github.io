@@ -4,7 +4,7 @@
   <subtitle><![CDATA[既然选择了远方，就只顾风雨兼程]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://csuft.github.io/"/>
-  <updated>2015-02-03T08:59:57.462Z</updated>
+  <updated>2015-02-03T11:13:36.724Z</updated>
   <id>http://csuft.github.io/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[第一篇博客：测试为王]]></title>
+    <link href="http://csuft.github.io/2015/02/03/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%9A%E6%B5%8B%E8%AF%95%E4%B8%BA%E7%8E%8B/"/>
+    <id>http://csuft.github.io/2015/02/03/第一篇博客：测试为王/</id>
+    <published>2015-02-03T11:07:07.000Z</published>
+    <updated>2015-02-03T11:13:18.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://csuft.qiniudn.com/github/Schirmfoto_2014-06-14_094605.png" alt="GitHub Mark" title="博客上头条"><br><img src="http://csuft.qiniudn.com/github/Schirmfoto_2014-08-01_091207.png" alt="GitHub Mark" title="博客上头条"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[测试图片链接]]>
+    
+    </summary>
+    
+      <category term="测试" scheme="http://csuft.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>

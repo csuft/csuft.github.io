@@ -4,7 +4,7 @@
   <subtitle><![CDATA[依恋，是一叠昨天]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://csuft.github.io/"/>
-  <updated>2015-02-04T02:00:47.953Z</updated>
+  <updated>2015-02-04T04:07:07.087Z</updated>
   <id>http://csuft.github.io/</id>
   
   <author>
@@ -19,8 +19,15 @@
     <link href="http://csuft.github.io/2015/02/03/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%9A%E6%B5%8B%E8%AF%95%E4%B8%BA%E7%8E%8B/"/>
     <id>http://csuft.github.io/2015/02/03/第一篇博客：测试为王/</id>
     <published>2015-02-03T11:07:07.000Z</published>
-    <updated>2015-02-03T11:41:10.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://csuft.qiniudn.com/github/Schirmfoto_2014-06-14_094605.png" alt="第一次推荐最多" title="博客上头条"><br><img src="http://csuft.qiniudn.com/github/Schirmfoto_2014-08-01_091207.png" alt="第二次推荐最多" title="博客上头条"></p>
+    <updated>2015-02-04T02:29:51.000Z</updated>
+    <content type="html"><![CDATA[<p>第一次使用Hexo主题在github上搭建独立博客。初次尝试感觉还不错，不过细节配置处还未弄清楚。使用Markdown写作本身就是一件舒畅的事情，希望后面的博客越写越多，质量也越来越高。博客园的账号专门写Qt相关技术的博文，这里专门分享与web前端相关的技术心得。<br><a id="more"></a><br><img src="http://csuft.qiniudn.com/github/Schirmfoto_2014-06-14_094605.png" alt="第一次推荐最多" title="博客上头条"><br><img src="http://csuft.qiniudn.com/github/Schirmfoto_2014-08-01_091207.png" alt="第二次推荐最多" title="博客上头条"></p>
+<ul>
+<li><p>插入代码段1</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="preprocessor">#<span class="keyword">include</span>&lt;stdio.h&gt;</span></div><div class="line"><span class="keyword">int</span> main(<span class="keyword">void</span>)</div><div class="line">{</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">}</div></pre></td></tr></table></figure>
+</li>
+<li><p>插入代码段2    </p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">class Test {</div><div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(String[] args) {</div><div class="line">        System.<span class="keyword">out</span>.println(<span class="string">"Hello world!"</span>);</div><div class="line">    }</div><div class="line">}</div></pre></td></tr></table></figure></li>
+</ul>
 ]]></content>
     <summary type="html">
     <![CDATA[测试图片链接]]>
@@ -38,8 +45,8 @@
     <link href="http://csuft.github.io/2015/02/03/hello-world/"/>
     <id>http://csuft.github.io/2015/02/03/hello-world/</id>
     <published>2015-02-03T05:21:14.000Z</published>
-    <updated>2015-02-03T05:21:14.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <updated>2015-02-04T02:10:54.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
 <h2 id="Quick_Start">Quick Start</h2>
 <h3 id="Create_a_new_post">Create a new post</h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -59,7 +66,8 @@
 <p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br>]]>
+    
     </summary>
     
   </entry>

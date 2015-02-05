@@ -4,7 +4,7 @@
   <subtitle><![CDATA[依恋，是一叠昨天]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://csuft.github.io/"/>
-  <updated>2015-02-05T06:20:34.330Z</updated>
+  <updated>2015-02-05T06:44:07.939Z</updated>
   <id>http://csuft.github.io/</id>
   
   <author>
@@ -19,11 +19,12 @@
     <link href="http://csuft.github.io/2015/02/05/javascript-tuts-on-terminal/"/>
     <id>http://csuft.github.io/2015/02/05/javascript-tuts-on-terminal/</id>
     <published>2015-02-05T05:40:32.000Z</published>
-    <updated>2015-02-05T06:20:21.000Z</updated>
-    <content type="html"><![CDATA[<p>最近一段时间在学习Node.js，在网上搜罗各种文档资料。今天在网上找资料的时候，在<a href="http://nodejs.org/documentation/tutorials/" title="nodejs" target="_blank" rel="external">node.js</a>的的官网上发现了一个教程。这个教程的名字叫做<a href="http://nodeschool.io/" title="nodeschool" target="_blank" rel="external">nodeschool</a>，细细一看，介绍说是基于Node.js打造的终端学习教程，顿时来了兴趣。<br>根据官网上的指导说明，要使用教程需得先安装这些教程。这里值得一提的是，这些教程都做成了一个个Node.js模块。这样用户可以根据兴趣安装不同的模块，然后在命令行中直接运行模块即可开始学习。<br>关键模块有：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141020.png" alt="核心课程" title="核心课程"><br>先装个javascripting模块看看：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141400.png" alt="运行图" title="javascripting模块"><br>再看看git-it模块：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141429.png" alt="git-it模块" title="git-it模块"><br>此外还有一些选择性课程可以学习：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141043.png" alt="可选课程" title="可选课程"><br>安装方法都一样，直接运行命令即可开始学习。教程内容一般为初级内容，入个门了解各基础还是不错的。如果在终端下运行系统而没有图形界面，真的很实用。</p>
+    <updated>2015-02-05T06:21:38.000Z</updated>
+    <content type="html"><![CDATA[<p>最近一段时间在学习Node.js，在网上搜罗各种文档资料。今天在网上找资料的时候，在<a href="http://nodejs.org/documentation/tutorials/" title="nodejs" target="_blank" rel="external">node.js</a>的的官网上发现了一个教程。这个教程的名字叫做<a href="http://nodeschool.io/" title="nodeschool" target="_blank" rel="external">nodeschool</a>，细细一看，介绍说是基于Node.js打造的终端学习教程，顿时来了兴趣。<br><a id="more"></a><br>根据官网上的指导说明，要使用教程需得先安装这些教程。这里值得一提的是，这些教程都做成了一个个Node.js模块。这样用户可以根据兴趣安装不同的模块，然后在命令行中直接运行模块即可开始学习。<br>关键模块有：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141020.png" alt="核心课程" title="核心课程"><br>先装个javascripting模块看看：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141400.png" alt="运行图" title="javascripting模块"><br>再看看git-it模块：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141429.png" alt="git-it模块" title="git-it模块"><br>此外还有一些选择性课程可以学习：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141043.png" alt="可选课程" title="可选课程"><br>安装方法都一样，直接运行命令即可开始学习。教程内容一般为初级内容，入个门了解各基础还是不错的。如果在终端下运行系统而没有图形界面，真的很实用。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>最近一段时间在学习Node.js，在网上搜罗各种文档资料。今天在网上找资料的时候，在<a href="http://nodejs.org/documentation/tutorials/" title="nodejs" target="_blank" rel="extern]]>
+    <![CDATA[<p>最近一段时间在学习Node.js，在网上搜罗各种文档资料。今天在网上找资料的时候，在<a href="http://nodejs.org/documentation/tutorials/" title="nodejs" target="_blank" rel="external">node.js</a>的的官网上发现了一个教程。这个教程的名字叫做<a href="http://nodeschool.io/" title="nodeschool" target="_blank" rel="external">nodeschool</a>，细细一看，介绍说是基于Node.js打造的终端学习教程，顿时来了兴趣。<br>]]>
+    
     </summary>
     
       <category term="node.js" scheme="http://csuft.github.io/tags/node-js/"/>

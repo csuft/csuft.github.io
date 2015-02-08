@@ -4,7 +4,7 @@
   <subtitle><![CDATA[依恋，是一叠昨天]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://csuft.github.io/"/>
-  <updated>2015-02-05T06:44:07.939Z</updated>
+  <updated>2015-02-08T03:29:34.172Z</updated>
   <id>http://csuft.github.io/</id>
   
   <author>
@@ -15,15 +15,54 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[纯CSS3绘制图标利器之一：box-shadow属性]]></title>
+    <link href="http://csuft.github.io/2015/02/07/css3-box-shadow-usage/"/>
+    <id>http://csuft.github.io/2015/02/07/css3-box-shadow-usage/</id>
+    <published>2015-02-07T12:48:39.000Z</published>
+    <updated>2015-02-08T03:28:27.000Z</updated>
+    <content type="html"><![CDATA[<p>&#160; &#160; &#160; &#160;<code>box-shadow</code>属性是CSS3中新增加的属性之一，能够给元素设置各种漂亮的阴影效果。在支持该属性的浏览器中，box-shadow实现的效果在以前需要写很多行的代码。不过目前只有<code>IE9+</code>、<code>Firefox 4</code>、<code>Chrome</code>、<code>Opera</code> 以及 <code>Safari 5.1.1</code> 支持 <code>box-shadow</code> 属性。在低版本的IE浏览器中可能需要借助滤镜才能实现相应的效果。<br><a id="more"></a><br>&#160; &#160; &#160; &#160;事实上，边框阴影只是box-shadow的普通应用。随着CSS3标准逐渐成熟，业界出现了一种新的技术发展趋势：<strong>使用纯CSS3代码绘制扁平化的图标</strong>。扁平化设计是目前UI设计界的发展方向，一切设计都尽量简洁的线条色块组成。这种设计以今年发布的<code>windows 8/8.1</code>, <code>iOS 7/8</code>, <code>Windows Phone</code>为代表。在<code>Android</code>平台，从5.0版本开始，更是全部以扁平化设计为主题。<br>&#160; &#160; &#160; &#160;废话了一堆，开始进入正题：那么怎么用CSS3来绘制图标呢？略一思考，没有什么头绪啊！对于稍微简单一点的几何图形，那还好，矩形、方形、圆形这都不是问题。那么复杂一点的呢？什么椭圆形、弧形、三角形怎么办呵？经过一番研究，发现要绘制这些图形其实并不很难。关键是运用好几个属性：<code>box-shadow</code>首当其冲，用于投影不同部位的色块；其次是<code>border</code>和<code>border-radius</code>，用于实现规则和不规则几何图形；最后是<code>transform</code>属性和<code>animate</code>属性，用于变换和动画。当然，有了这些还不行，还缺少<code>position</code>属性和伪元素<code>::before</code>和<code>::after</code>。当一个图形分成多个组件的时候，一个元素怎么投影变换都显然不够，这时候伪元素的作用就来了。而<code>position</code>属性恰好用于定位好这些组件，构建出漂亮的图标。<br>下面以一个礼品盒为例，讲解下这些属性和元素是怎样配合工作的。先看预览图：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_094541.png" alt="礼品盒"><br>&#160; &#160; &#160; &#160;这个图标初略可分成几个部分：上面的两束花，左右各算一部分，这是个不规则的图形，显然要搭配<code>border-radius</code>才能实现。下面盒子部分分成六个部分，由于都是规则的矩形，因此不算困难。我们需要几个元素来实现这几个部分呢？三个就够了！下面六个矩形色块其实用阴影就可以办到。因为在box-shadow属性中我们可以写上多个属性值，如实现上面的功能可以如下写CSS：  </p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">box-shadow</span>: 2<span class="class">.2em</span> 0 0 <span class="tag">rgba</span>(0,0,0,1), 0 1<span class="class">.2em</span> 0 <span class="tag">rgba</span>(0,0,0,1), 2<span class="class">.2em</span> 1<span class="class">.2em</span> 0 <span class="tag">rgba</span>(0,0,0,1), <span class="tag">-0</span><span class="class">.1em</span> <span class="tag">-0</span><span class="class">.6em</span> 0 0<span class="class">.1em</span> <span class="tag">rgba</span>(0,0,0,1), 2<span class="class">.3em</span> <span class="tag">-0</span><span class="class">.6em</span> 0 0<span class="class">.1em</span> <span class="tag">rgba</span>(0,0,0,1);</div></pre></td></tr></table></figure>
+
+
+<p>&#160; &#160; &#160; &#160;效果如下：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_104646.png" alt="礼品盒下半部分"><br>其分解图为：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_104922.png" alt="分解图"><br>&#160; &#160; &#160; &#160;理论上，一个元素的投影可以无限多，这个在张鑫旭的博客中有讲过这种应用。将阴影的作用用到此处，可谓是恰到好处。那么盒子上的两束花怎么办呢？其实用CSS来绘制图标，有一个思想一定要牢牢记在脑海中：<strong>所有的不规则图形都是通过规则图形变换而来的</strong>！就说这两束花吧，外型上两者都是近似椭圆形，边框有点粗，一个向左倾斜45度，一个向右倾斜45度。这么一分析，左边这束花的css代码似乎可以这么写：  </p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">border</span>: 0<span class="class">.16em</span> <span class="tag">solid</span> <span class="id">#000</span>;</div><div class="line"><span class="tag">border-width</span>: <span class="class">.4em</span> <span class="class">.2em</span> <span class="class">.4em</span> <span class="class">.4em</span>;</div><div class="line"><span class="tag">border-radius</span>: 50%;</div><div class="line"><span class="tag">-webkit-transform</span>: <span class="tag">rotate</span>(<span class="tag">-45deg</span>);</div></pre></td></tr></table></figure>
+
+
+<p>&#160; &#160; &#160; &#160;通过禁用掉不同的属性，查看不同的效果：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_110849.png" alt="礼品盒的花束"><img src="http://csuft.qiniudn.com/backup/2015-02-08_110924.png" alt="礼品盒的花束"><img src="http://csuft.qiniudn.com/backup/2015-02-08_110941.png" alt="礼品盒的花束"><br>&#160; &#160; &#160; &#160;右边的那束花代码差不多，就说倾斜角度不一样而已。一个倾斜45度，一个倾斜-45度。当然，这里只是实现了基本的外形，还需要定位到具体的位置。不然的话还是一团散了架的组件。这里就牵涉到<code>position</code>属性定位了。一般的做法是：将基本元素设置为<code>position:relative</code>，而伪元素设置为<code>position:absolute</code>。这样伪元素围绕着基本元素进行调整。如上的礼品盒：  </p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="class">.gift</span> <span class="rules">{</span></div><div class="line">    <span class="rule"><span class="attribute">position</span>:<span class="value"> relative</span></span>;</div><div class="line"><span class="rule">}</span> </div><div class="line"><span class="class">.gift</span><span class="pseudo">::before</span> <span class="rules">{</span></div><div class="line">    <span class="rule"><span class="attribute">position</span>:<span class="value"> absolute</span></span>;</div><div class="line"><span class="rule">}</span></div><div class="line"><span class="class">.gift</span><span class="pseudo">::after</span> <span class="rules">{</span></div><div class="line">    <span class="rule"><span class="attribute">position</span>:<span class="value"> absolute</span></span>;</div><div class="line"><span class="rule">}</span></div></pre></td></tr></table></figure>
+
+
+<p>&#160; &#160; &#160; &#160;还有一个问题，怎么实现不同的弧形呢？<code>border-radius</code>属性值其实大有文章可作。通过给<code>border-radius</code>属性设置不同的属性值，可以实现各种弧形。其原理在张鑫旭的博客中有详细讲解。<br>在上面这个礼品盒的实现中，通过元素投影和<code>::before</code>, <code>::after</code>这个三个元素完全可以实现图形中的组件。但是，当图形比较复杂，需要的组件比较多怎么办呢？一种办法是，添加自定义标签。HTML5中是支持自定义标签的。这么一来，基本标签加上自定义标签及其相应的伪元素，就有六个元素可以用了。一般而言，绝大部分图形是能够满足了。</p>
+<h1 id="参考文献">参考文献</h1>
+<ol>
+<li><a href="http://blog.csdn.net/whqet/article/details/8884931" target="_blank" rel="external">CSS3实现的单div图标</a></li>
+<li><a href="http://www.zhangxinxu.com/wordpress/2014/04/css3-icon-%E5%9B%BE%E6%A0%87%E7%94%9F%E6%88%90%E6%8A%80%E6%9C%AF/" target="_blank" rel="external">CSS3图标图形生成技术个人攻略</a></li>
+<li><a href="http://www.w3school.com.cn/cssref/pr_box-shadow.asp" target="_blank" rel="external">box-shadow属性</a></li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>&#160; &#160; &#160; &#160;<code>box-shadow</code>属性是CSS3中新增加的属性之一，能够给元素设置各种漂亮的阴影效果。在支持该属性的浏览器中，box-shadow实现的效果在以前需要写很多行的代码。不过目前只有<code>IE9+</code>、<code>Firefox 4</code>、<code>Chrome</code>、<code>Opera</code> 以及 <code>Safari 5.1.1</code> 支持 <code>box-shadow</code> 属性。在低版本的IE浏览器中可能需要借助滤镜才能实现相应的效果。<br>]]>
+    
+    </summary>
+    
+      <category term="CSS3" scheme="http://csuft.github.io/tags/CSS3/"/>
+    
+      <category term="HTML5" scheme="http://csuft.github.io/tags/HTML5/"/>
+    
+      <category term="css" scheme="http://csuft.github.io/categories/css/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[基于Node.js打造的Node.js终端教程]]></title>
     <link href="http://csuft.github.io/2015/02/05/javascript-tuts-on-terminal/"/>
     <id>http://csuft.github.io/2015/02/05/javascript-tuts-on-terminal/</id>
     <published>2015-02-05T05:40:32.000Z</published>
-    <updated>2015-02-05T06:21:38.000Z</updated>
-    <content type="html"><![CDATA[<p>最近一段时间在学习Node.js，在网上搜罗各种文档资料。今天在网上找资料的时候，在<a href="http://nodejs.org/documentation/tutorials/" title="nodejs" target="_blank" rel="external">node.js</a>的的官网上发现了一个教程。这个教程的名字叫做<a href="http://nodeschool.io/" title="nodeschool" target="_blank" rel="external">nodeschool</a>，细细一看，介绍说是基于Node.js打造的终端学习教程，顿时来了兴趣。<br><a id="more"></a><br>根据官网上的指导说明，要使用教程需得先安装这些教程。这里值得一提的是，这些教程都做成了一个个Node.js模块。这样用户可以根据兴趣安装不同的模块，然后在命令行中直接运行模块即可开始学习。<br>关键模块有：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141020.png" alt="核心课程" title="核心课程"><br>先装个javascripting模块看看：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141400.png" alt="运行图" title="javascripting模块"><br>再看看git-it模块：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141429.png" alt="git-it模块" title="git-it模块"><br>此外还有一些选择性课程可以学习：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141043.png" alt="可选课程" title="可选课程"><br>安装方法都一样，直接运行命令即可开始学习。教程内容一般为初级内容，入个门了解各基础还是不错的。如果在终端下运行系统而没有图形界面，真的很实用。</p>
+    <updated>2015-02-08T03:28:48.000Z</updated>
+    <content type="html"><![CDATA[<p>&#160; &#160; &#160; &#160;最近一段时间在学习Node.js，在网上搜罗各种文档资料。今天在网上找资料的时候，在<a href="http://nodejs.org/documentation/tutorials/" title="nodejs" target="_blank" rel="external">node.js</a>的的官网上发现了一个教程。这个教程的名字叫做<a href="http://nodeschool.io/" title="nodeschool" target="_blank" rel="external">nodeschool</a>，细细一看，介绍说是基于Node.js打造的终端学习教程，顿时来了兴趣。<br><a id="more"></a><br>&#160; &#160; &#160; &#160;根据官网上的指导说明，要使用教程需得先安装这些教程。这里值得一提的是，这些教程都做成了一个个Node.js模块。这样用户可以根据兴趣安装不同的模块，然后在命令行中直接运行模块即可开始学习。<br>关键模块有：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141020.png" alt="核心课程" title="核心课程"><br>先装个javascripting模块看看：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141400.png" alt="运行图" title="javascripting模块"><br>再看看git-it模块：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141429.png" alt="git-it模块" title="git-it模块"><br>此外还有一些选择性课程可以学习：<br><img src="http://csuft.qiniudn.com/github/2015-02-05_141043.png" alt="可选课程" title="可选课程"><br>安装方法都一样，直接运行命令即可开始学习。教程内容一般为初级内容，入个门了解各基础还是不错的。如果在终端下运行系统而没有图形界面，真的很实用。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>最近一段时间在学习Node.js，在网上搜罗各种文档资料。今天在网上找资料的时候，在<a href="http://nodejs.org/documentation/tutorials/" title="nodejs" target="_blank" rel="external">node.js</a>的的官网上发现了一个教程。这个教程的名字叫做<a href="http://nodeschool.io/" title="nodeschool" target="_blank" rel="external">nodeschool</a>，细细一看，介绍说是基于Node.js打造的终端学习教程，顿时来了兴趣。<br>]]>
+    <![CDATA[<p>&#160; &#160; &#160; &#160;最近一段时间在学习Node.js，在网上搜罗各种文档资料。今天在网上找资料的时候，在<a href="http://nodejs.org/documentation/tutorials/" title="nodejs" target="_blank" rel="external">node.js</a>的的官网上发现了一个教程。这个教程的名字叫做<a href="http://nodeschool.io/" title="nodeschool" target="_blank" rel="external">nodeschool</a>，细细一看，介绍说是基于Node.js打造的终端学习教程，顿时来了兴趣。<br>]]>
     
     </summary>
     

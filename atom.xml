@@ -4,7 +4,7 @@
   <subtitle><![CDATA[依恋，是一叠昨天]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://csuft.github.io/"/>
-  <updated>2015-02-08T03:29:34.172Z</updated>
+  <updated>2015-03-07T01:19:45.460Z</updated>
   <id>http://csuft.github.io/</id>
   
   <author>
@@ -15,16 +15,37 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[我存在在你的存在]]></title>
+    <link href="http://csuft.github.io/2015/03/07/diary/"/>
+    <id>http://csuft.github.io/2015/03/07/diary/</id>
+    <published>2015-03-07T00:50:13.000Z</published>
+    <updated>2015-03-07T01:18:56.000Z</updated>
+    <content type="html"><![CDATA[<p>&#160; &#160; &#160; &#160;今天是3月6号星期五。晚上回到寝室洗完衣服后，站在阳台上发呆。看着寝室对面的高楼大厦射出五颜六色的灯光，我不禁出神了……不久以后，我可能就要永远告别这片土地，这里的人们，可能你们从来不知道我来过。<a id="more"></a><br>&#160; &#160; &#160; &#160;不过这并不要紧，毕竟我不是什么举重若轻的人物。悄悄地来，也悄悄地去。十一点了，室外已经寒气袭人，哈一口气竟还能看到白雾。心里又想起了她。晚上没有跟我说一句话就拜拜了。我不禁质疑自己在她心里的地位。<br>&#160; &#160; &#160; &#160;不知道她怎么想的，对我有时热情，有时冷淡。但是有一点可以肯定，不管是什么时候，我都不会这样冷漠甩下她，这一辈子都不忍心。工作签到了海南，是一件让我非常头疼的事情。尽管那边的环境待遇都不错，但是现在我已经有了拒绝的理由。如果说之前的我，还在犹豫着到底去还是不去，主要还是因为我无法确认她对我的态度。在那次彻夜长谈之后，我有了一点把握：她还是喜欢我的。<br>&#160; &#160; &#160; &#160;为了她，抛弃暂时的稳定，这不算大事，将来的长长久久才是重点呢。爱了她很久，很累，心里有点苦。我对爱情的没有太多幻想，这一生啊太漫长，如果没有一个人来携手面对生活中的跌宕起伏，实在过于孤单；这一生其实也很短暂，如果没有一个人来分享喜乐悲伤，也算是白走一遭人世间。我一直在思考，到底我是为什么这么喜欢她。即便是分开了几次，她却仍然是我心底最柔软的部位。<br>&#160; &#160; &#160; &#160;幸好，她还是回到我的怀抱来了。要是没有她，我真是不敢想象将来我会让谁站在我身边。如果不是她，我会觉得生活中总会少点什么。今年的我已经26了，可我还是搞不懂爱情到底是什么。每当别人讨论爱情的时候，我总会细心聆听他们的观点，到底在他们看来什么是爱情。有人说，爱情就是生生世世，相互搀扶，有人说爱情就是你侬我侬，缠缠绵绵，山盟海誓，海枯石烂，也有人说，爱情，就是和变成亲人的陌生人相守终身。我觉得，都有道理。悟透了爱情的真谛，或许并没有什么重大意义。不管知不知道什么是爱情，能够信守誓言，从一而终，便是最伟大的爱情。<br>&#160; &#160; &#160; &#160;我也不打算搞懂爱情到底是什么。我只想和我的她相守一辈子，照顾她，宠她，让她开心。这辈子或许不能留下伟大的功绩，但我相信一句话:这辈子如能找到一个真正爱的人，谈一场一辈子的恋爱，便是成功的人生。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>&#160; &#160; &#160; &#160;今天是3月6号星期五。晚上回到寝室洗完衣服后，站在阳台上发呆。看着寝室对面的高楼大厦射出五颜六色的灯光，我不禁出神了……不久以后，我可能就要永远告别这片土地，这里的人们，可能你们从来不知道我来过。]]>
+    
+    </summary>
+    
+      <category term="思想" scheme="http://csuft.github.io/tags/%E6%80%9D%E6%83%B3/"/>
+    
+      <category term="爱情" scheme="http://csuft.github.io/tags/%E7%88%B1%E6%83%85/"/>
+    
+      <category term="情感日志" scheme="http://csuft.github.io/categories/%E6%83%85%E6%84%9F%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[纯CSS3绘制图标利器之一：box-shadow属性]]></title>
     <link href="http://csuft.github.io/2015/02/07/css3-box-shadow-usage/"/>
     <id>http://csuft.github.io/2015/02/07/css3-box-shadow-usage/</id>
     <published>2015-02-07T12:48:39.000Z</published>
-    <updated>2015-02-08T03:28:27.000Z</updated>
-    <content type="html"><![CDATA[<p>&#160; &#160; &#160; &#160;<code>box-shadow</code>属性是CSS3中新增加的属性之一，能够给元素设置各种漂亮的阴影效果。在支持该属性的浏览器中，box-shadow实现的效果在以前需要写很多行的代码。不过目前只有<code>IE9+</code>、<code>Firefox 4</code>、<code>Chrome</code>、<code>Opera</code> 以及 <code>Safari 5.1.1</code> 支持 <code>box-shadow</code> 属性。在低版本的IE浏览器中可能需要借助滤镜才能实现相应的效果。<br><a id="more"></a><br>&#160; &#160; &#160; &#160;事实上，边框阴影只是box-shadow的普通应用。随着CSS3标准逐渐成熟，业界出现了一种新的技术发展趋势：<strong>使用纯CSS3代码绘制扁平化的图标</strong>。扁平化设计是目前UI设计界的发展方向，一切设计都尽量简洁的线条色块组成。这种设计以今年发布的<code>windows 8/8.1</code>, <code>iOS 7/8</code>, <code>Windows Phone</code>为代表。在<code>Android</code>平台，从5.0版本开始，更是全部以扁平化设计为主题。<br>&#160; &#160; &#160; &#160;废话了一堆，开始进入正题：那么怎么用CSS3来绘制图标呢？略一思考，没有什么头绪啊！对于稍微简单一点的几何图形，那还好，矩形、方形、圆形这都不是问题。那么复杂一点的呢？什么椭圆形、弧形、三角形怎么办呵？经过一番研究，发现要绘制这些图形其实并不很难。关键是运用好几个属性：<code>box-shadow</code>首当其冲，用于投影不同部位的色块；其次是<code>border</code>和<code>border-radius</code>，用于实现规则和不规则几何图形；最后是<code>transform</code>属性和<code>animate</code>属性，用于变换和动画。当然，有了这些还不行，还缺少<code>position</code>属性和伪元素<code>::before</code>和<code>::after</code>。当一个图形分成多个组件的时候，一个元素怎么投影变换都显然不够，这时候伪元素的作用就来了。而<code>position</code>属性恰好用于定位好这些组件，构建出漂亮的图标。<br>下面以一个礼品盒为例，讲解下这些属性和元素是怎样配合工作的。先看预览图：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_094541.png" alt="礼品盒"><br>&#160; &#160; &#160; &#160;这个图标初略可分成几个部分：上面的两束花，左右各算一部分，这是个不规则的图形，显然要搭配<code>border-radius</code>才能实现。下面盒子部分分成六个部分，由于都是规则的矩形，因此不算困难。我们需要几个元素来实现这几个部分呢？三个就够了！下面六个矩形色块其实用阴影就可以办到。因为在box-shadow属性中我们可以写上多个属性值，如实现上面的功能可以如下写CSS：  </p>
+    <updated>2015-02-08T03:44:14.000Z</updated>
+    <content type="html"><![CDATA[<p>&#160; &#160; &#160; &#160;<code>box-shadow</code>属性是CSS3中新增加的属性之一，能够给元素设置各种漂亮的阴影效果。在支持该属性的浏览器中，box-shadow实现的效果在以前需要写很多行的代码。不过目前只有<code>IE9+</code>、<code>Firefox 4</code>、<code>Chrome</code>、<code>Opera</code> 以及 <code>Safari 5.1.1</code> 支持 <code>box-shadow</code> 属性。在低版本的IE浏览器中可能需要借助滤镜才能实现相应的效果。<br><a id="more"></a><br>&#160; &#160; &#160; &#160;事实上，边框阴影只是box-shadow的普通应用。随着CSS3标准逐渐成熟，业界出现了一种新的技术发展趋势：<strong>使用纯CSS3代码绘制扁平化的图标</strong>。扁平化设计是目前UI设计界的发展方向，一切设计都尽量简洁的线条色块组成。这种设计以今年发布的<code>windows 8/8.1</code>, <code>iOS 7/8</code>, <code>Windows Phone</code>为代表。在<code>Android</code>平台，从5.0版本开始，更是全部以扁平化设计为主题。<br>&#160; &#160; &#160; &#160;废话了一堆，开始进入正题：那么怎么用CSS3来绘制图标呢？略一思考，没有什么头绪啊！对于稍微简单一点的几何图形，那还好，矩形、方形、圆形这都不是问题。那么复杂一点的呢？什么椭圆形、弧形、三角形怎么办呵？经过一番研究，发现要绘制这些图形其实并不很难。关键是运用好几个属性：<code>box-shadow</code>首当其冲，用于投影不同部位的色块；其次是<code>border</code>和<code>border-radius</code>，用于实现规则和不规则几何图形；最后是<code>transform</code>属性和<code>animate</code>属性，用于变换和动画。当然，有了这些还不行，还缺少<code>position</code>属性和伪元素<code>::before</code>和<code>::after</code>。当一个图形分成多个组件的时候，一个元素怎么投影变换都显然不够，这时候伪元素的作用就来了。而<code>position</code>属性恰好用于定位好这些组件，构建出漂亮的图标。<br>&#160; &#160; &#160; &#160;下面以一个礼品盒为例，讲解下这些属性和元素是怎样配合工作的。先看预览图：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_094541.png" alt="礼品盒"><br>&#160; &#160; &#160; &#160;这个图标初略可分成几个部分：上面的两束花，左右各算一部分，这是个不规则的图形，显然要搭配<code>border-radius</code>才能实现。下面盒子部分分成六个部分，由于都是规则的矩形，因此不算困难。我们需要几个元素来实现这几个部分呢？三个就够了！下面六个矩形色块其实用阴影就可以办到。因为在box-shadow属性中我们可以写上多个属性值，如实现上面的功能可以如下写CSS：  </p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">box-shadow</span>: 2<span class="class">.2em</span> 0 0 <span class="tag">rgba</span>(0,0,0,1), 0 1<span class="class">.2em</span> 0 <span class="tag">rgba</span>(0,0,0,1), 2<span class="class">.2em</span> 1<span class="class">.2em</span> 0 <span class="tag">rgba</span>(0,0,0,1), <span class="tag">-0</span><span class="class">.1em</span> <span class="tag">-0</span><span class="class">.6em</span> 0 0<span class="class">.1em</span> <span class="tag">rgba</span>(0,0,0,1), 2<span class="class">.3em</span> <span class="tag">-0</span><span class="class">.6em</span> 0 0<span class="class">.1em</span> <span class="tag">rgba</span>(0,0,0,1);</div></pre></td></tr></table></figure>
 
 
-<p>&#160; &#160; &#160; &#160;效果如下：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_104646.png" alt="礼品盒下半部分"><br>其分解图为：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_104922.png" alt="分解图"><br>&#160; &#160; &#160; &#160;理论上，一个元素的投影可以无限多，这个在张鑫旭的博客中有讲过这种应用。将阴影的作用用到此处，可谓是恰到好处。那么盒子上的两束花怎么办呢？其实用CSS来绘制图标，有一个思想一定要牢牢记在脑海中：<strong>所有的不规则图形都是通过规则图形变换而来的</strong>！就说这两束花吧，外型上两者都是近似椭圆形，边框有点粗，一个向左倾斜45度，一个向右倾斜45度。这么一分析，左边这束花的css代码似乎可以这么写：  </p>
+<p>&#160; &#160; &#160; &#160;效果如下：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_104646.png" alt="礼品盒下半部分"><br>&#160; &#160; &#160; &#160;其分解图为：<br><img src="http://csuft.qiniudn.com/backup/2015-02-08_104922.png" alt="分解图"><br>&#160; &#160; &#160; &#160;理论上，一个元素的投影可以无限多，这个在张鑫旭的博客中有讲过这种应用。将阴影的作用用到此处，可谓是恰到好处。那么盒子上的两束花怎么办呢？其实用CSS来绘制图标，有一个思想一定要牢牢记在脑海中：<strong>所有的不规则图形都是通过规则图形变换而来的</strong>！就说这两束花吧，外型上两者都是近似椭圆形，边框有点粗，一个向左倾斜45度，一个向右倾斜45度。这么一分析，左边这束花的css代码似乎可以这么写：  </p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">border</span>: 0<span class="class">.16em</span> <span class="tag">solid</span> <span class="id">#000</span>;</div><div class="line"><span class="tag">border-width</span>: <span class="class">.4em</span> <span class="class">.2em</span> <span class="class">.4em</span> <span class="class">.4em</span>;</div><div class="line"><span class="tag">border-radius</span>: 50%;</div><div class="line"><span class="tag">-webkit-transform</span>: <span class="tag">rotate</span>(<span class="tag">-45deg</span>);</div></pre></td></tr></table></figure>
 
 
@@ -32,7 +53,7 @@
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="class">.gift</span> <span class="rules">{</span></div><div class="line">    <span class="rule"><span class="attribute">position</span>:<span class="value"> relative</span></span>;</div><div class="line"><span class="rule">}</span> </div><div class="line"><span class="class">.gift</span><span class="pseudo">::before</span> <span class="rules">{</span></div><div class="line">    <span class="rule"><span class="attribute">position</span>:<span class="value"> absolute</span></span>;</div><div class="line"><span class="rule">}</span></div><div class="line"><span class="class">.gift</span><span class="pseudo">::after</span> <span class="rules">{</span></div><div class="line">    <span class="rule"><span class="attribute">position</span>:<span class="value"> absolute</span></span>;</div><div class="line"><span class="rule">}</span></div></pre></td></tr></table></figure>
 
 
-<p>&#160; &#160; &#160; &#160;还有一个问题，怎么实现不同的弧形呢？<code>border-radius</code>属性值其实大有文章可作。通过给<code>border-radius</code>属性设置不同的属性值，可以实现各种弧形。其原理在张鑫旭的博客中有详细讲解。<br>在上面这个礼品盒的实现中，通过元素投影和<code>::before</code>, <code>::after</code>这个三个元素完全可以实现图形中的组件。但是，当图形比较复杂，需要的组件比较多怎么办呢？一种办法是，添加自定义标签。HTML5中是支持自定义标签的。这么一来，基本标签加上自定义标签及其相应的伪元素，就有六个元素可以用了。一般而言，绝大部分图形是能够满足了。</p>
+<p>&#160; &#160; &#160; &#160;还有一个问题，怎么实现不同的弧形呢？<code>border-radius</code>属性值其实大有文章可作。通过给<code>border-radius</code>属性设置不同的属性值，可以实现各种弧形。其原理在张鑫旭的博客中有详细讲解。<br>&#160; &#160; &#160; &#160;在上面这个礼品盒的实现中，通过元素投影和<code>::before</code>, <code>::after</code>这个三个元素完全可以实现图形中的组件。但是，当图形比较复杂，需要的组件比较多怎么办呢？一种办法是，添加自定义标签。HTML5中是支持自定义标签的。这么一来，基本标签加上自定义标签及其相应的伪元素，就有六个元素可以用了。一般而言，绝大部分图形是能够满足了。</p>
 <h1 id="参考文献">参考文献</h1>
 <ol>
 <li><a href="http://blog.csdn.net/whqet/article/details/8884931" target="_blank" rel="external">CSS3实现的单div图标</a></li>
